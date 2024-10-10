@@ -1,13 +1,13 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { resumeData } from './resumeData';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { resumeData } from "./resumeData";
 
 const Contact: React.FC = () => {
   const contact = resumeData.contact;
   return (
-    <div className="text-left text-xs mb-4">
+    <div className="text-left text-xs">
       <div className="flex flex-col space-y-1">
         {/* Phone */}
         <div className="flex items-center space-x-1">
@@ -24,8 +24,26 @@ const Contact: React.FC = () => {
         {/* GitHub */}
         <div className="flex items-center space-x-1">
           <FontAwesomeIcon icon={faGithub} className="text-black" />
-          <a href={contact.github} target="_blank" rel="noopener noreferrer" className="text-xs">
+          <a
+            href={contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs"
+          >
             github.com/ewanmay
+          </a>
+        </div>
+
+        {/* GitHub */}
+        <div className="flex items-center space-x-1">
+          <FontAwesomeIcon icon={faLinkedin} className="text-black" />
+          <a
+            href={contact.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs"
+          >
+            ewan-may
           </a>
         </div>
       </div>

@@ -3,7 +3,8 @@ export const resumeData = {
   contact: {
     phone: "+1 (587)-707-5790",
     email: "ewanmay3@gmail.com",
-    github: "https://github.com/ewanmay"
+    github: "https://github.com/ewanmay",
+    linkedIn: "https://www.linkedin.com/in/ewan-may/"
   },
   education: {
     school: "University of Calgary",
@@ -17,22 +18,11 @@ export const resumeData = {
       company: "Apiary Health",
       role: "Full Stack Engineer",
       location: "Calgary",
-      date: "March 2024 — Current",
+      date: "March 2024 — Sept 2024",
       accomplishments: [
-        "Architected and deployed 3 separate environments using Azure Container Instances and MongoDB with Terraform",
-        "Implemented and launched both iOS and Android apps in React Native, while also writing 2 native libraries.",
-        "Prompt engineered over 10 different prompts for usage with 6 different models including GPT-4o, Llama 7b, and Llama 80b",
-      ],
-    },
-    {
-      company: "Quickly",
-      role: "Full Stack Engineer",
-      location: "Calgary",
-      date: "March 2023 — May 2023",
-      accomplishments: [
-        "Developed a green-field React application with a serverless Node.JS backend hosted in Firebase",
-        "Wrote 5 micro-services including the payment system, responsible for managing $3M of money moving through the service",
-        "Reworked user flows with designers, reducing steps from 8 to 3 in one instance",
+        "Delivered a React Native app for an AI Chatbot to help people with substance use disorders find resources, writing 2 native libraries for enhanced performance and platform integration",
+        "Architected and deployed 3 distinct environments using Azure Container Instances and MongoDB managed with Terraform.",
+        "Engineered over 10 distinct prompts for 6 AI models, including GPT-4, Llama 7b, and Llama 80b, to optimize conversational AI interactions.",
       ],
     },
     {
@@ -41,20 +31,20 @@ export const resumeData = {
       location: "Calgary",
       date: "Dec 2021 — Oct 2022",
       accomplishments: [
-        "Designed, built, and deployed a cross-platform mobile application for over 500 users",
-        "Worked with users to gather feedback through weekly customer interviews and iterated on features",
-        "Built an internal portal to track analytics data and manage database changes",
+        "Designed, built, and deployed a cross-platform mobile app to help 500+ users organize social events with their friends.",
+        "Conducted weekly customer interviews, iterating rapidly on features based on direct user feedback.",
+        "Developed an internal analytics portal for data tracking and database management",
       ],
     },
     {
       company: "Arcurve",
       role: "Software Engineer",
       location: "Calgary",
-      date: "May 2019 — Jul 2020 & May 2021 — Dec 2021",
+      date: "May 2021 — Dec 2021",
       accomplishments: [
-        "Implemented an algorithm to log data state transactions, allowing for data analysis from within 7 days to any point in time",
-        "Designed and implemented 14 UI components, presenting 6 different Figma userflow mocks to clients",
-        "Profiled C# services and optimized LINQ queries, reducing execution time by up to 90%",
+      "Created a dynamic dashboard in React and ExpressJS to visualize mining process availability.",
+      "Designed and implemented 14 reusable UI components, presenting 6 Figma-based userflows to stakeholders.",
+      "Enhanced application reliability through robust error handling and monitoring, reducing downtime by 30%."
       ],
     },
     {
@@ -63,9 +53,20 @@ export const resumeData = {
       location: "Calgary",
       date: "Mar 2020 — Feb 2021",
       accomplishments: [
-        "Collaborated with medical professionals and the Federal Government of Canada to build a dashboard from concept to deployment in 2 months",
-        "Implemented features based on Google Analytics feedback, decreasing home-page bounce rates by 15%",
-        "Received $500,000 in funding from the Public Health Agency of Canada and contributed to a publication in the Lancet Infectious Diseases journal",
+        "Collaborated with medical experts and the Federal Government of Canada to build a COVID-19 tracking dashboard from concept to launch in 2 months.",
+        "Improved homepage engagement by reducing bounce rates 15% through analytics-driven feature development",
+        "Contributed to a Lancet Infectious Diseases publication, with the project receiving $500,000 in funding from the Public Health Agency of Canada.",
+      ],
+    },
+    {
+      company: "Arcurve",
+      role: "Software Engineering Intern",
+      location: "Calgary",
+      date: "May 2019 — Jul 2020",
+      accomplishments: [
+        "Engineered and maintained an AngularJS application to monitor gas deliveries to stations, ensuring real-time tracking and efficient logistical operations.",
+        "Implemented an algorithm for transaction logging, enabling data analysis from any historical point within a 7-day window.",
+        "Optimized C# services by profiling and refining LINQ queries, achieving a 90% reduction in execution time.",
       ],
     },
   ],
@@ -79,6 +80,7 @@ export const resumeData = {
       "CSS",
       "SQL",
       "C#",
+      "Ruby"
     ],
     tools: [
       "ReactJS",
@@ -92,6 +94,8 @@ export const resumeData = {
       "NodeJS",
       "ExpressJS",
       "Figma",
+      "Machine Learning",
+      "API Design"
     ],
   },
 };
